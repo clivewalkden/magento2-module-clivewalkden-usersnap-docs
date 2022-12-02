@@ -2,6 +2,9 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Magento 2 Usersnap Documentation'
 theme = 'learn'
+# Google Analytis
+googleAnalytics = ''
+enableRobotsTXT = true
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
@@ -10,12 +13,18 @@ url = "https://github.com/clivewalkden/Magento2_Usersnap"
 weight = 10
 
 [params]
-  github_repo = "https://github.com/clivewalkden/Magento2_Usersnap"
-  github_issues = "https://github.com/clivewalkden/Magento2_Usersnap/issues"
+  githubRepo = "https://github.com/clivewalkden/Magento2_Usersnap"
+  githubIssues = "https://github.com/clivewalkden/Magento2_Usersnap/issues"
   themeVariant = "blue"
   author = "Clive Walkden"
   disableMermaid = true
   showLastUpdated = true
+  # Twitter Cards and OpenGraph
+  description = 'Documentation for the Magento 2 Usersnap module by Clive Walkden'
+  #images = ['image.png']
+
+[social]
+  #twitter = 'Magento2Usersnap' #@ added automatically
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
