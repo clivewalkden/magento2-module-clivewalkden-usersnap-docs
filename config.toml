@@ -1,0 +1,21 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Magento 2 Usersnap Documentation'
+theme = 'learn'
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/clivewalkden/Magento2_Usersnap"
+weight = 10
+
+[params]
+  github_repo = "https://github.com/clivewalkden/Magento2_Usersnap"
+  github_issues = "https://github.com/clivewalkden/Magento2_Usersnap/issues"
+  themeVariant = "blue"
+  author = "Clive Walkden"
+  disableMermaid = true
+  showLastUpdated = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
