@@ -1,6 +1,7 @@
 ---
 title: "Supported Versions"
 date: 2022-12-02T08:21:39Z
+weight: 1
 ---
 
 This documentation reflects the latest version of the plugin. You can find the latest version on [Github]({{% siteparam "githubRepo" %}}). Our plugin supports the following:
